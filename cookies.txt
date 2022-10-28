@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.transdigm.com	TRUE	/	FALSE	1999999999	PHPSESSID	48goidlb5ca6jn7irinicaftif
+www.transdigm.com	TRUE	/	FALSE	1999999999	MSE_HTTP_REFERER	http%3A%2F%2Fwww.transdigm.com%2F
+

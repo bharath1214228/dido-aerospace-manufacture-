@@ -1,0 +1,4544 @@
+/*TEXT AND PARAGRAPH*/
+
+
+
+
+
+
+
+h2 {
+
+
+
+  text-transform: uppercase;
+
+
+
+  font-weight: 900;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*EVENT CALENDAR, DIVIDEND INFORMATION*/
+
+
+
+h2.cal, .divid h2, .faq h2 {
+
+
+
+    font-size: 1.25em;
+
+
+
+    margin-bottom: .25em;
+
+
+
+}
+
+
+
+
+
+
+
+/*Fix <p> Spacing after Headings*/
+
+
+
+h2.cal + p, .divid p {
+
+
+
+    margin-bottom: 0;
+
+
+
+    font-weight: 600;
+
+
+
+}
+
+
+
+
+
+
+
+/*h2:first-child,*/ p + h2, p + h3, p + h4, h2 + h3, h3 + h4 {
+
+
+
+  margin-bottom: 0!important;
+
+
+
+}
+
+
+
+
+
+
+
+.divid {
+
+
+
+  margin-bottom: 2em;
+
+
+
+}
+
+
+
+
+
+
+
+.divid .pdf {
+
+
+
+  margin-left: 0;
+
+
+
+}
+
+
+
+
+
+
+
+/*INVESTOR FAQ*/
+
+
+
+
+
+
+
+.faq p {
+
+
+
+    position: relative;
+
+
+
+    margin-bottom: 3em;
+
+
+
+}
+
+
+
+
+
+
+
+.faq p::after {
+
+
+
+    bottom: -21px;
+
+
+
+    content: '';
+
+
+
+    height: 1px;
+
+
+
+    width: 7em;
+
+
+
+    background-color: #bdbdbd;
+
+
+
+    position: absolute;
+
+
+
+    left: 0;
+
+
+
+}
+
+
+
+
+
+
+
+/*CUSTOM DIVS*/
+
+
+
+
+
+
+
+.flex {
+
+
+
+  display: flex;
+
+
+
+  flex-wrap: wrap;
+
+
+
+}
+
+
+
+
+
+
+
+.flex.center {
+
+
+
+  justify-content: center;
+
+
+
+}
+
+
+
+
+
+
+
+.flex.space-around {
+
+
+
+  justify-content: space-around;
+
+
+
+}
+
+
+
+
+
+
+
+.flex.space-between {
+
+
+
+  justify-content: space-between;
+
+
+
+}
+
+
+
+
+
+
+
+.text-center {
+
+
+
+  text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+.bold {
+
+
+
+  font-weight: bold;
+
+
+
+}
+
+
+
+
+
+
+
+.italic {
+
+
+
+  font-style: italic;
+
+
+
+}
+
+
+
+
+
+
+
+a.pdf {
+
+
+
+    /*border-left: 4px solid #3b5b70;*/
+
+
+
+    display: block;
+
+
+
+    margin: 1em;
+
+
+
+    padding: .75em;
+
+
+
+    max-width: 22em;
+
+
+
+}
+
+
+
+
+
+
+
+a.pdf:hover, a.pdf:focus {
+
+
+
+    background-color: #efefef;
+
+
+
+    color: #3b5b70;
+
+
+
+    text-decoration: none;
+
+
+
+}
+
+
+
+
+
+
+
+.info-box {
+
+
+
+  margin-bottom: 1em;
+
+
+
+  border-bottom: 1px solid #bdbdbd;
+
+
+
+  padding-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.info-box h2 {
+
+
+
+  margin-bottom: .5em;
+
+
+
+  text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+.info-box p, .info-box h3, .info-box h4 {
+
+
+
+    margin-bottom: .25em;
+
+
+
+}
+
+
+
+
+
+
+
+.info-box h2 + p {
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+/*CSS RESET*/
+
+
+
+
+
+
+
+#bodychild {
+
+
+
+    border-top-color: #3B5B70;
+
+
+
+}
+
+
+
+
+
+
+
+.current-menu-item > a, .business-groups .current_page_item > a {
+
+
+
+    color: #808080!important;
+
+
+
+    font-weight: 900;
+
+
+
+    pointer-events: none;
+
+
+
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+section.positionright {
+
+
+
+    padding-left: 1em;
+
+
+
+    border-left: 1px solid #bdbdbd;
+
+
+
+}
+
+
+
+
+
+
+
+/*SLIDER FIX*/
+
+
+
+
+
+
+
+#slider .cameraContent {
+
+
+
+    max-width: 1600px;
+
+
+
+}
+
+
+
+
+
+
+
+section#slider {
+
+
+
+    /*border-top: 30px solid #3b5b70;*/
+
+
+
+}
+
+
+
+
+
+
+
+.camera_next, .camera_prev {
+
+
+
+  width: 40px!important;
+
+
+
+  height: 40px!important;
+
+
+
+  bottom: 50%!important;
+
+
+
+  border-radius: 50%;
+
+
+
+  display: flex;
+
+
+
+  justify-content: center;
+
+
+
+  flex-direction: column;
+
+
+
+}
+
+
+
+
+
+
+
+.camera_next {
+
+
+
+    left: auto!important;
+
+
+
+    right: 3%!important;
+
+
+
+}
+
+
+
+
+
+
+
+.camera_prev {
+
+
+
+    left: 3%!important;
+
+
+
+    right: auto!important;
+
+
+
+}
+
+
+
+
+
+
+
+#slider .camera_next > span, #slider .camera_prev > span {
+
+
+
+    background: none!important;
+
+
+
+    text-align: center;
+
+
+
+    width: auto;
+
+
+
+    height: auto;
+
+
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+#slider .camera_next > span::before {
+
+
+
+    content: '\f054';
+
+
+
+    font-family: fontawesome;
+
+
+
+    margin-left: 2px;
+
+
+
+}
+
+
+
+
+
+
+
+#slider .camera_prev > span::before {
+
+
+
+  content: '\f053';
+
+
+
+  font-family: fontawesome;
+
+
+
+  margin-right: 2px;
+
+
+
+}
+
+
+
+
+
+
+
+#slider .camera_caption {
+
+
+
+    padding: 0 7vw;
+
+
+
+}
+
+
+
+
+
+
+
+.slider-title a {
+
+
+
+    text-transform: capitalize;
+
+
+
+    pointer-events: none;
+
+
+
+}
+
+
+
+
+
+
+
+#slider .slider-desc {
+
+
+
+     width: 60vw;
+
+
+
+}
+
+
+
+
+
+
+
+ #slider .slider-title {
+
+
+
+     width: 40vw;
+
+
+
+}
+
+
+
+
+
+
+
+#slider .slider-desc {
+
+
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (min-width: 768px) {
+
+
+
+  #slider .slider-desc {
+
+
+
+      font-size: 1.25em;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 1200px) {
+
+
+
+	.slider-title a {
+
+
+
+		    font-size: 2.75rem;
+
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+
+
+	.cameraContent {
+
+
+
+	    /*display: flex!important;*/
+
+
+
+	    justify-content: center;
+
+
+
+	    flex-direction: column;
+
+
+
+	}
+
+
+
+	.camera_caption {
+
+
+
+    max-width: 77%;
+
+
+
+    position: relative!important;
+
+
+
+    margin: auto;
+
+
+
+    top: 0!important;
+
+
+
+    bottom: auto!important;
+
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 600px) {
+
+
+
+  .slider-title a {
+
+
+
+        font-size: 1.25rem;
+
+
+
+    }
+
+
+
+  #slider .slider-title {
+
+
+
+      padding: .5em 1em;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+/*EMAIL INPUT*/
+
+
+
+
+
+
+
+.email-input {
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.email-input p {
+
+
+
+    margin-bottom: .5em;
+
+
+
+}
+
+
+
+
+
+
+
+.email-input input {
+
+
+
+    margin-right: .5em;
+
+
+
+}
+
+
+
+
+
+
+
+.email-input label {
+
+
+
+    width: 100%;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+
+
+
+
+form.email fieldset {
+
+
+
+    border: none;
+
+
+
+}
+
+
+
+
+
+
+
+form.email input[type="textbox"] {
+
+
+
+    border: 0 solid;
+
+
+
+    padding: .75em;
+
+
+
+    background-color:#cbc6c6;
+
+
+
+    transition: all 100ms ease-in-out;
+
+
+
+}
+
+
+
+
+
+
+
+form.email input[type="textbox"]:focus {
+
+
+
+    color: #3b5b70;
+
+
+
+    border-bottom: 3px solid #3b5b70;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*STOCK INFORMATION STYLES*/
+
+
+
+
+
+
+
+.stock-sub p {
+
+
+
+    font-size: .8em;
+
+
+
+    margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+table.stock td {
+
+
+
+    padding: .5em;
+
+
+
+}
+
+
+
+
+
+
+
+.stock td:first-of-type {
+
+
+
+    font-weight: bold;
+
+
+
+    color: #3b5b70;
+
+
+
+}
+
+
+
+
+
+
+
+footer .stock td:first-of-type {
+
+
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+/*Business Group Nav Menu*/
+
+
+
+
+
+
+
+li.menu-item a {
+
+
+
+    margin-bottom: .5em;
+
+
+
+}
+
+
+
+
+
+
+
+li#menu-item-1297.sfHover ul.sub-menu {
+
+
+
+    display: flex!important;
+
+
+
+    flex-wrap: wrap;
+
+
+
+    min-width: 42em;
+
+
+
+    padding: 0;
+
+
+
+    left: -65%;
+
+
+
+}
+
+
+
+
+
+
+
+li#menu-item-1297 li {
+
+
+
+    width: 33.33333%;
+
+
+
+    border: 1px solid #ececec;
+
+
+
+    border-collapse: collapse;
+
+
+
+    display: flex;
+
+
+
+    justify-content: center;
+
+
+
+    flex-direction: column;
+
+
+
+    min-height: 41px;
+
+
+
+}
+
+
+
+
+
+
+
+.sf-menu ul.sub-menu:after, .sf-menu ul.sub-menu::before {
+
+
+
+  left: 48%;
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 1550px) {
+
+
+
+  li#menu-item-1297.sfHover ul.sub-menu {
+
+
+
+      min-width: 35em;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 1450px) {
+
+
+
+  li#menu-item-1297.sfHover ul.sub-menu {
+
+
+
+      min-width: 30em;
+
+
+
+  }
+
+
+
+  li#menu-item-1297 li {
+
+
+
+      width: 50%;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+li#menu-item-1297 li a {
+
+
+
+    padding: .25em .5em;
+
+
+
+}
+
+
+
+
+
+
+
+li#menu-item-1297 li:hover {
+
+
+
+    background-color: rgba(59, 91, 112, 0.3);
+
+
+
+}
+
+
+
+
+
+
+
+.sf-menu ul.sub-menu {
+
+
+
+    box-shadow: 0px 1px 2px rgba(0,0,0,.15);
+
+
+
+}
+
+
+
+
+
+
+
+/*HOME PAGE*/
+
+
+
+
+
+
+
+.home-link-holder {
+
+
+
+  margin: 1em 0;
+
+
+
+}
+
+
+
+
+
+
+
+.link-box {
+
+
+
+    max-width: 15em;
+
+
+
+    margin: .5em;
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: wrap;
+
+
+
+    border: 1px solid #bdbdbd;
+
+
+
+    border-radius: 4px;
+
+	height: 350px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.link-box .top {
+
+
+
+  background-size: cover;
+
+
+
+  background-position: center;
+
+
+
+  width: 100%;
+
+
+
+  height: 175px;
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.link-box p {
+
+
+
+  margin-bottom: .5em;
+
+
+
+}
+
+
+
+
+
+
+
+.link-box a {
+
+
+
+    text-transform: uppercase;
+
+
+
+    display: block;
+
+
+
+    font-weight: 900;
+
+
+
+    margin: 1em 0 1em 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.top.stock {
+
+
+
+  background-image: url(https://www.transdigm.com/wp-content/uploads/2017/04/stock-thumb-e1491927319630.jpg);
+
+
+
+}
+
+
+
+
+
+
+
+.top.products {
+
+
+
+    background-image: url(https://www.transdigm.com/wp-content/uploads/2021/02/Stakeholder-Reportb.jpg);
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.top iframe {
+
+
+
+  height: 175px!important;
+
+
+
+}
+
+
+
+
+
+
+
+.top.analyst {
+
+
+
+  background-image: url(https://www.transdigm.com/wp-content/uploads/2017/08/SnipImage.jpg);
+
+
+
+}
+
+
+
+
+
+
+
+.top.report {
+
+
+
+    background-image: url(https://www.transdigm.com/wp-content/uploads/2017/04/annual-report-thumb.png);
+
+
+
+    background-position-x: right;
+
+
+
+    background-position-y: bottom;
+
+
+
+}
+
+
+
+
+
+
+
+.bottom {
+
+
+
+    min-height: 302px;
+
+
+
+    width: 100%;
+
+
+
+    padding: 0 .5em;
+
+
+
+}
+
+
+
+.bottom table {
+
+  margin:0 !important;
+
+}
+
+
+
+.smallerbot {
+
+    min-height: 112px;
+
+}
+
+
+
+
+
+.bottom h2 {
+
+
+
+    line-height: 1.2em;
+
+
+
+    /*min-height: 84px;*/
+
+
+
+    margin-bottom: 0.25em!important;
+
+
+
+}
+
+
+
+
+
+
+
+table {
+
+
+
+    table-layout: auto;
+
+
+
+    width: auto;
+
+
+
+}
+
+
+
+
+
+
+
+td:nth-child(2) a {
+
+
+
+    font-weight: 600;
+
+
+
+}
+
+
+
+
+
+
+
+.sec td a {
+
+
+
+    display: block;
+
+
+
+}
+
+
+
+
+
+
+
+.sec td:first-child {
+
+
+
+    min-width: 7em;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1200px) {
+
+
+
+  .link-box {
+
+
+
+     max-width: 11em;
+
+
+
+}
+
+
+
+  .bottom {
+
+
+
+    min-height: 460.78px;
+
+
+
+    width: 100%;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 900px) {
+
+
+
+  .link-box, .bottom .stock {
+
+
+
+    width: 100%;
+
+
+
+    max-width: none;
+
+
+
+  }
+
+
+
+  .bottom {
+
+
+
+      min-height: 0;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+/*ALL BUSINESS GROUPS PAGE*/
+
+
+
+
+
+
+
+.business-group-logos a {
+
+
+
+    display: flex;
+
+
+
+}
+
+
+
+
+
+
+
+.business-group-logos img {
+
+
+
+  max-height: 4em;
+
+
+
+      width: auto;
+
+
+
+      margin: 2em 3em;
+
+
+
+      align-self: center;
+
+
+
+  }
+
+
+
+
+
+
+
+/*BUSINESS GROUP PAGES*/
+
+
+
+
+
+
+
+.group-head {
+
+
+
+    background-color: #3b5b70;
+
+
+
+    padding: 2em;
+
+
+
+    text-transform: uppercase;
+
+
+
+    font-weight: 900;
+
+
+
+}
+
+
+
+
+
+
+
+.group-head h1 {
+
+
+
+  color: white;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-business-groups .columns {
+
+
+
+  padding: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-business-groups div#outerheader {
+
+
+
+	margin:0;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-business-groups #outercontent .container.bgcontent {
+
+
+
+    border-width: 0 1px 0 1px;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-business-groups .outercontent-wrapper {
+
+
+
+    margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-business-groups .entry-content {
+
+
+
+    padding: 1.5em;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-header {
+
+
+
+    border-bottom: 1px solid #bdbdbd;
+
+
+
+    margin-bottom: 2em;
+
+
+
+    flex-wrap: nowrap;
+
+
+
+    padding: 0 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-header img {
+
+
+
+    padding: 1em;
+
+
+
+    height: 100%;
+
+
+
+    width: 287px;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-header .text img {
+
+
+
+  overflow: auto;
+
+
+
+  height: auto;
+
+
+
+  padding: 0;
+
+
+
+  width: 100%;
+
+
+
+  max-width: 26em;
+
+
+
+}
+
+
+
+
+
+
+
+.pic-row {
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.pic-row img {
+
+
+
+    width: 33.33333%;
+
+
+
+    height: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-header .text {
+
+
+
+    text-align: right;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-header h2 {
+
+
+
+    font-size: 2em;
+
+
+
+    margin-bottom: .25em;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-header h3 {
+
+
+
+  margin-bottom: 1em!important;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-sidebar {
+
+
+
+    width: 30%;
+
+
+
+    padding: 0 1em;
+
+
+
+    border-right: 1px solid #bdbdbd;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-sidebar img {
+
+
+
+    width: 252px;
+
+
+
+    margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-contact h3 {
+
+
+
+    margin-bottom: .25em;
+
+
+
+    text-decoration: underline;
+
+
+
+}
+
+
+
+
+
+
+
+.business-groups li {
+
+
+
+    list-style: none;
+
+
+
+}
+
+
+
+
+
+
+
+.country {
+
+
+
+  font-size: 1.5em;
+
+
+
+  text-transform: uppercase;
+
+
+
+  color: #3b5b70;
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-desc {
+
+
+
+    width: 70%;
+
+
+
+    padding: 0 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.img-row {
+
+
+
+    align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+.img-row img {
+
+
+
+    max-height: 9em;
+
+
+
+    margin: 0 1em 1em 0;
+
+
+
+    max-width: 16em;
+
+
+
+}
+
+
+
+
+
+
+
+.brand-desc .img-row img {
+
+
+
+    max-height: 10em;
+
+
+
+    max-width: 15em;
+
+
+
+}
+
+
+
+
+
+
+
+/*BOARD AND MANAGEMENT*/
+
+
+
+
+
+
+
+.board, .board ~ p, .management {
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.member {
+
+
+
+  margin-left: 0em;
+
+  margin-right: 1em;
+
+  margin-top: 1em;
+
+  margin-bottom: 1em;
+
+
+
+  position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+.management .member {
+
+
+
+    max-width: 12em;
+
+
+
+}
+
+
+
+
+
+
+
+.board .member {
+
+
+
+  width: 22em;
+
+
+
+}
+
+
+
+
+
+
+
+.member .info {
+
+
+
+    background-color: #3b5b70;
+
+
+
+    padding: .5em;
+
+
+
+    min-height: 116px;
+
+
+
+}
+
+
+
+
+
+
+
+.member h3, .member h4 {
+
+
+
+  margin: 0;
+
+
+
+  font-size: .8em;
+
+
+
+  font-weight: 400;
+
+
+
+}
+
+
+
+
+
+
+
+.member h3 {
+
+
+
+    margin-bottom: .25em;
+
+
+
+    text-transform: uppercase;
+
+
+
+    font-weight: 900;
+
+
+
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.management .member h3, .management .member h4 {
+
+
+
+    color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.anno {
+
+
+
+    position: absolute;
+
+
+
+    top: 0;
+
+
+
+    right: 0;
+
+
+
+}
+
+
+
+
+
+
+
+/*HISTORY / TIMELINE*/
+
+
+
+
+
+
+
+.history-slider {
+
+
+
+    background-color: #efefef;
+
+
+
+}
+
+
+
+
+
+
+
+.timeline h2 {
+
+
+
+    background-color: #3b5b70;
+
+
+
+    color: white;
+
+
+
+    margin: 0;
+
+
+
+    text-transform: none;
+
+
+
+    padding: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.time-point {
+
+
+
+    margin: 1em 1em 3em;
+
+
+
+    background-color: #fff;
+
+
+
+    padding: 1em;
+
+
+
+    border-radius: 4px;
+
+
+
+    box-shadow: 0 1px 2px rgba(0,0,0,.15);
+
+
+
+    position: relative;
+
+
+
+    height: 200px;
+
+
+
+}
+
+
+
+
+
+
+
+.time-point img {
+
+
+
+    max-height: 6em;
+
+
+
+}
+
+
+
+
+
+
+
+.time-point img, h3.company {
+
+
+
+    margin-bottom: .75em;
+
+
+
+}
+
+
+
+
+
+
+
+h3.company {
+
+
+
+    font-weight: 600;
+
+
+
+    font-size: .75em;
+
+
+
+}
+
+
+
+
+
+
+
+p.date {
+
+
+
+    font-weight: 600;
+
+
+
+    font-size: .75em;
+
+
+
+    color: #3b5b70;
+
+
+
+    margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+p.date span {
+
+
+
+    display: block;
+
+
+
+    font-size: .7em;
+
+
+
+    font-weight: 100;
+
+
+
+    color: #212121;
+
+
+
+}
+
+
+
+
+
+
+
+/*Time line / dots */
+
+
+
+
+
+
+
+.history-slider.slick-initialized.slick-slider.slick-dotted::after {
+
+
+
+    content: '';
+
+
+
+    width: 100%;
+
+
+
+    position: absolute;
+
+
+
+    height: 6px;
+
+
+
+    background-color: #3b5b70;
+
+
+
+    bottom: 169px;
+
+
+
+}
+
+
+
+
+
+
+
+.time-point::before {
+
+
+
+    border-color: #fff;
+
+
+
+    position: absolute;
+
+
+
+    content: '';
+
+
+
+    bottom: -10px;
+
+
+
+    left: 44%;
+
+
+
+    border-left: 10px solid transparent;
+
+
+
+    border-right: 10px solid transparent;
+
+
+
+    border-top: 10px solid #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.time-point::after {
+
+
+
+    content: '';
+
+
+
+    position: absolute;
+
+
+
+    bottom: -48px;
+
+
+
+    left: 44%;
+
+
+
+    background-color: #3b5b70;
+
+
+
+    border-radius: 50%;
+
+
+
+    height: 1.5em;
+
+
+
+    width: 1.5em;
+
+
+
+    z-index: 9999;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.history-slider .slick-prev, .history-slider .slick-next {
+
+
+
+    z-index: 500;
+
+
+
+    bottom: 35px;
+
+
+
+    top: auto;
+
+
+
+    width: 36px;
+
+
+
+    height: 36px;
+
+
+
+}
+
+
+
+
+
+
+
+.slick-next {
+
+
+
+    right: 18px;
+
+
+
+    left: auto;
+
+
+
+    width: auto;
+
+
+
+    height: auto;
+
+
+
+}
+
+
+
+
+
+
+
+.slick-prev {
+
+
+
+  left: 18px;
+
+
+
+  right: auto;
+
+
+
+  width: auto;
+
+
+
+  height: auto;
+
+
+
+}
+
+
+
+
+
+
+
+.slick-prev:before, .slick-next:before {
+
+
+
+  color: #3b5b70;
+
+
+
+  font-size: 36px;
+
+
+
+}
+
+
+
+
+
+
+
+.history-slider.slick-dotted.slick-slider {
+
+
+
+    padding-bottom: 10em;
+
+
+
+}
+
+
+
+
+
+
+
+.history-slider .slick-dots {
+
+
+
+    bottom: 1em;
+
+
+
+}
+
+
+
+.history-slider .slick-slide
+
+
+
+{
+
+
+
+width: 150px;
+
+
+
+}
+
+
+
+
+
+
+
+/*CONTACT US*/
+
+
+
+
+
+
+
+.page-template-Sidebar-Content .container.bgcontent {
+
+
+
+  max-width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-Sidebar-Content .outercontent-wrapper, .page-template-Sidebar-Content .column, .page-template-Sidebar-Content .columns, .page-template-Sidebar-Content .row .row, .page-template-Sidebar-Content #outerheader {
+
+
+
+  border: none;
+
+
+
+  padding: 0;
+
+
+
+  margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-Sidebar-Content .site-content, .full-width-head h1 {
+
+
+
+  max-width: 1232px;
+
+
+
+  margin: 0 auto;
+
+
+
+  padding: 0 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.full-width-head {
+
+
+
+  background-color: #3B5B70;
+
+
+
+  padding: 1em 0;
+
+
+
+  margin-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.full-width-head h1 {
+
+
+
+  color: #fff;
+
+
+
+  text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+.custom-sidebar {
+
+
+
+    width: 26%;
+
+
+
+    border-right: 1px solid #bdbdbd!important;
+
+
+
+    margin-right: 2em!important;
+
+
+
+    padding-right: 1em!important;
+
+
+
+}
+
+
+
+
+
+
+
+.custom-sidebar h2, .main-content h2 {
+
+
+
+    text-transform: uppercase;
+
+
+
+    font-weight: 900;
+
+
+
+}
+
+
+
+
+
+
+
+.custom-sidebar h3 {
+
+
+
+    text-decoration: underline;
+
+
+
+    margin-bottom: .25em;
+
+
+
+}
+
+
+
+
+
+
+
+.custom-sidebar img {
+
+
+
+  padding: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.main-content {
+
+
+
+    width: 70%;
+
+
+
+}
+
+
+
+
+
+
+
+.main-content h2 {
+
+
+
+    width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.business-contact {
+
+
+
+    width: 44%;
+
+
+
+    padding-bottom: 1em;
+
+
+
+    margin: 0 1em 1em;
+
+
+
+    border-bottom: 1px solid #bdbdbd;
+
+
+
+}
+
+
+
+
+
+
+
+.business-contact p {
+
+
+
+    margin-bottom: .25em;
+
+
+
+    font-size: .8em;
+
+
+
+}
+
+
+
+
+
+
+
+.business-contact h3 {
+
+
+
+    margin-bottom: .25em;
+
+
+
+    font-size: 1em;
+
+
+
+    text-transform: uppercase;
+
+
+
+}
+
+
+
+
+
+
+
+/*MANAGEMENT*/
+
+
+
+
+
+
+
+.business-mgmt {
+
+
+
+    margin: 1em;
+
+
+
+    border-bottom: 1px solid #bdbdbd;
+
+
+
+    width: 43%;
+
+
+
+    padding-bottom: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.business-mgmt h2, .business-mgmt h3 {
+
+
+
+  margin: 0;
+
+
+
+  font-size: .8em;
+
+
+
+  font-weight: 400;
+
+
+
+}
+
+
+
+
+
+
+
+.business-mgmt h2 {
+
+
+
+    margin-bottom: .25em;
+
+
+
+    text-transform: uppercase;
+
+
+
+    font-weight: 900;
+
+
+
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+/*PRODUCTS*/
+
+
+
+
+
+
+
+.page-id-2307 #maincontent > .container {
+
+
+
+    max-width: none;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-products .full-width-head {
+
+
+
+  margin-bottom: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.page-template-products #maincontent {
+
+
+
+    background-color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.product-holder {
+
+
+
+    padding: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.product-col {
+
+
+
+    display: flex;
+
+
+
+    flex-wrap: wrap;
+
+
+
+    width: 100%;
+
+
+
+    margin-bottom: 2em;
+
+
+
+    justify-content: center;
+
+
+
+    position: relative;
+
+
+
+}
+
+
+
+
+
+
+
+.product-title {
+
+
+
+    position: absolute;
+
+
+
+    left: 1em;
+
+
+
+    bottom: -30px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.product-title h2 {
+
+
+
+    color: white;
+
+
+
+    background-color: #3b5b70;
+
+
+
+    display: inline-block;
+
+
+
+    padding: .5em 1em;
+
+
+
+    margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.product {
+
+
+
+    padding: .25em;
+
+
+
+    background-color: #fff;
+
+
+
+    display: flex;
+
+
+
+    justify-content: center;
+
+
+
+    flex-direction: column;
+
+
+
+    width: 12%;
+
+
+
+    height: 9em;
+
+
+
+    margin: 1em;
+
+
+
+    border-radius: 4px;
+
+
+
+    align-items: center;
+
+
+
+}
+
+
+
+
+
+
+
+.product img {
+
+
+
+    max-height: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.slick-prev, .slick-next {
+
+
+
+  z-index: 9999;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ANALYSTS*/
+
+
+
+
+
+
+
+.analyst-block p, .analyst-block h3, .analyst-block h2 {
+
+
+
+    margin-bottom: 0;
+
+
+
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+.analyst-block {
+
+
+
+    margin: 0 1em 2em 0;
+
+
+
+    width: 46%;
+
+
+
+}
+
+
+
+
+
+
+
+/*Footer*/
+
+
+
+
+
+
+
+.container.footer {
+
+
+
+	max-width: none;
+
+
+
+}
+
+
+
+
+
+
+
+footer#footersidebar {
+
+
+
+    max-width: 115em;
+
+
+
+    margin: 0 auto;
+
+
+
+}
+
+
+
+
+
+
+
+footer .columns {
+
+
+
+    padding: 0 2em;
+
+
+
+}
+
+
+
+
+
+
+
+#footer {
+
+
+
+  text-transform: none;
+
+
+
+}
+
+
+
+
+
+
+
+.ir {
+
+
+
+  margin-bottom: 2em;
+
+
+
+}
+
+
+
+
+
+
+
+.ir p {
+
+
+
+    margin-bottom: .25em;
+
+
+
+}
+
+
+
+
+
+
+
+footer .ir a {
+
+
+
+  color: #b2baba;
+
+
+
+}
+
+
+
+
+
+
+
+.ir a {
+
+
+
+    font-size: 1.0em;
+
+
+
+}
+
+
+
+
+
+
+
+.ir h2, .ir h3 {
+
+
+
+  margin-bottom: .5em;
+
+
+
+}
+
+
+
+
+
+
+
+.ir h3 {
+
+
+
+    font-size: 1.5em;
+
+
+
+}
+
+
+
+
+
+
+
+/*MAKE ALL HEADERS FULL WIDTH*/
+
+
+
+
+
+
+
+.container.bgcontent {
+
+
+
+  max-width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+.outercontent-wrapper, .column, .columns, .row .row, #outerheader {
+
+
+
+  border: none;
+
+
+
+  padding: 0;
+
+
+
+  margin: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.site-content, .full-width-head h1 {
+
+
+
+  max-width: 1232px;
+
+
+
+  margin: 0 auto;
+
+
+
+  padding: 0 20px;
+
+
+
+}
+
+
+
+
+
+
+
+/*Hide on Home Page*/
+
+
+
+.page-id-1261 .full-width-head {
+
+
+
+  display: none;
+
+
+
+}
+
+
+
+
+
+
+
+ .page-id-1261 #outerheader {
+
+
+
+   margin-bottom: 50px;
+
+
+
+ }
+
+
+
+
+
+
+
+ .page-id-1261 .column, .page-id-1261 .columns {
+
+
+
+   padding: 0 15px;
+
+
+
+ }
+
+
+
+
+
+
+
+ /*Fluid Width Video*/
+
+
+
+
+
+
+
+ .service-img .videoWrapper {
+
+
+
+     margin-top: 28px;
+
+
+
+ }
+
+
+
+
+
+
+
+ .videoWrapper {
+
+
+
+ 	position: relative;
+
+
+
+  padding-bottom: 56.25%; /* 16:9 */
+
+
+
+ 	padding-top: 25px;
+
+
+
+ 	height: 0;
+
+
+
+ }
+
+
+
+ .videoWrapper object, .videoWrapper iframe,
+
+
+
+ .videoWrapper embed {
+
+
+
+ 	position: absolute;
+
+
+
+ 	top: 0;
+
+
+
+ 	left: 0;
+
+
+
+ 	width: 100%;
+
+
+
+ 	height: 100%;
+
+
+
+ }
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 900px) {
+
+
+
+  .product {
+
+
+
+    width: 22%;
+
+
+
+  }
+
+
+
+  .brand-header {
+
+
+
+    flex-wrap: wrap;
+
+
+
+  }
+
+
+
+  .brand-desc {
+
+
+
+    width: 65%;
+
+
+
+  }
+
+
+
+  .main-content {
+
+
+
+    width: 60%;
+
+
+
+  }
+
+
+
+  .brand-sidebar, .custom-sidebar {
+
+
+
+    width: 35%;
+
+
+
+  }
+
+
+
+  .business-contact {
+
+
+
+    width: 100%;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+
+
+.brand-header img {
+
+
+
+  width: 100%;
+
+
+
+}
+
+
+
+.brand-header h2 {
+
+
+
+      font-size:1.6em;
+
+
+
+}
+
+
+
+  .brand-desc, .main-content {
+
+
+
+      width: 100%;
+
+
+
+      padding-bottom: 1em;
+
+
+
+      margin-bottom: 1em;
+
+
+
+      order: 1;
+
+
+
+      border-bottom: 1px solid #bdbdbd;
+
+
+
+  }
+
+
+
+  .brand-sidebar, .custom-sidebar {
+
+
+
+      width: 100%;
+
+
+
+      border: none!important;
+
+
+
+      order: 2;
+
+
+
+  }
+
+
+
+  .management {
+
+
+
+    width: 100%;
+
+
+
+  }
+
+
+
+  section.positionright {
+
+
+
+      padding-left: 0;
+
+
+
+      border-left: none;
+
+
+
+      border-bottom: 1px solid #bdbdbd;
+
+
+
+  }
+
+
+
+  .sec td:first-child {
+
+
+
+    min-width: 0;
+
+
+
+  }
+
+
+
+  .analyst-block {
+
+
+
+      margin: 0 0 2em 0;
+
+
+
+      padding: 0 1em;
+
+
+
+      width: 100%;
+
+
+
+  }
+
+
+
+  .product-col {
+
+
+
+    justify-content: center;
+
+
+
+    }
+
+
+
+  .product-title {
+
+
+
+      max-width: 20em;
+
+
+
+    }
+
+
+
+  .product-title h2 {
+
+
+
+    font-size: 1em;
+
+
+
+  }
+
+
+
+  .product {
+
+
+
+    width: 22%;
+
+
+
+    margin: .5em;
+
+
+
+    height: 6em;
+
+
+
+  }
+
+
+
+  .img-row img {
+
+
+
+    margin: 1em;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 600px) {
+
+
+
+  .business-mgmt {
+
+
+
+      width: 100%;
+
+
+
+  }
+
+
+
+  .product {
+
+
+
+    width: 20%;
+
+
+
+    margin: .25em;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+@media all and (max-width: 500px) {
+
+
+
+
+
+
+
+}
+
+.management .member2 {
+    max-width: 25.5em;
+}
+
+.member2 {
+    margin-left: 0em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: relative;
+}
+.page-id-3996 .full-width-head {
+    display: none;
+}
+.page-id-4285 .current-menu-item > a {
+	color: #3B5B70!important;
+	text-transform: none;
+	font-weight: inherit;
+	pointer-events:all;
+}
